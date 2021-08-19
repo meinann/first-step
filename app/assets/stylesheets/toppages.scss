@@ -1,0 +1,104 @@
+// Place all the styles related to the toppages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width:500px){
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 2.0;
+}
+}
+
+.text-center {
+  font-family: "serif";
+}
+.text-center h1 {
+  font-size: 46px;
+  color:#fff;
+  background-color:#956840;
+}
+#main_visual {
+  text-align: center;
+  margin: 0 auto;
+}
+#main_visual img {
+  max-width: 100%;
+}
+/*PC表示*/
+@media (min-width:500px){
+.yonezu{
+  display:flex;
+}
+
+.yonezu p {
+  margin-left: 30px;
+}
+}
+/*スマホ表示*/
+@media (max-width:500px) {
+  .yonezu {
+    text-align: center;
+  }
+}
+@media (max-width:500px) {
+  .yonezu p { 
+    text-align: left;
+    margin-left: 20px;
+  }
+}
+/*PC表示*/
+@media (min-width:500px){
+  .higa{
+    display:flex;
+  }
+  
+  .higa p {
+    margin-left: 30px;
+  }
+  }
+/*スマホ表示*/
+  @media (max-width:500px) {
+    .higa {
+      text-align: center;
+    }
+  }
+  @media (max-width:500px) {
+    .higa p {
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
+/*PC表示*/
+  @media (min-width:500px){
+    .irabu{
+      display:flex;
+    }
+    .irabu p {
+      margin-left:30px;
+    }
+  }
+/*スマホ表示*/
+  @media (max-width:500px) {
+    .irabu {
+      text-align: center;
+    }
+  }
+  @media (max-width:500px) {
+    .irabu p {
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
+
+  footer {
+    background-color: #956840;
+    text-align: center;
+  }
+
+  footer small {
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+  }
