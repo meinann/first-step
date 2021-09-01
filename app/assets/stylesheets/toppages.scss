@@ -26,10 +26,19 @@ body {
 #main_visual img {
   max-width: 100%;
 }
+.introduction {
+  text-align: center;
+}
 /*PC表示*/
 @media (min-width:500px){
 .yonezu{
   display:flex;
+}
+#address {
+  text-align: center;
+}
+#address2 {
+  text-align: center;
 }
 
 .yonezu p {
