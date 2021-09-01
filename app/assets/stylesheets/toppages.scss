@@ -2,15 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //スマホ h2 font-size
-@media (max-width:500px){
-  h1 {
-    font-size: 30px;
-  }
-}
 
 @media (max-width:500px){
   h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 /*PC body表示*/
@@ -46,7 +41,7 @@ body {
 //スマホ タイトル
 @media (max-width:500px) {
   .text-center h1 {
-    font-size: 25px;
+    font-size: 23px;
   color:#fff;
   background-color:#956840;
   }
