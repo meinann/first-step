@@ -60,6 +60,13 @@ body {
   text-align: center;
 }
 
+@media (min-width:500px) {
+  .greeting p {
+    text-align: left;
+    text-indent: 1em;
+    padding-left: 2em;
+  }
+}
 
 .introduction {
   text-align: center;
