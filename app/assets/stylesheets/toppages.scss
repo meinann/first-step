@@ -3,13 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 //スマホ h2 font-size
 
-@media (max-width:500px){
+@media (max-width:575px){
   h2 {
     font-size: 20px;
   }
 }
 /*PC body表示*/
-@media (min-width:500px){
+@media (min-width:575px){
 body {
   width: 1200px;
   text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 }
 //スマホ body表示
-@media (max-width:500px) {
+@media (max-width:575px) {
   body {
     width: 95%;
     margin: 0px auto;
@@ -39,7 +39,7 @@ body {
   background-color:#956840;
 }
 //スマホ タイトル
-@media (max-width:500px) {
+@media (max-width:575px) {
   .text-center h1 {
     font-size: 23px;
   color:#fff;
@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 
-@media (min-width:500px) {
+@media (min-width:575px) {
   .greeting p {
     text-align: left;
     text-indent: 1em;
@@ -72,7 +72,7 @@ body {
   text-align: center;
 }
 /*PC 個人紹介*/
-@media (min-width:500px){
+@media (min-width:575px){
 .yonezu{
   display:flex;
 }
@@ -83,19 +83,19 @@ body {
 }
 }
 /*スマホ表示*/
-@media (max-width:500px) {
+@media (max-width:575px) {
   .yonezu {
     text-align: center;
   }
 }
-@media (max-width:500px) {
+@media (max-width:575px) {
   .yonezu p { 
     text-align: left;
-    margin-left: 60px;
+    margin-left: 30px;
   }
 }
 /*PC表示*/
-@media (min-width:500px){
+@media (min-width:575px){
   .higa{
     display:flex;
   }
@@ -105,19 +105,19 @@ body {
   }
   }
 /*スマホ表示*/
-  @media (max-width:500px) {
+  @media (max-width:575px) {
     .higa {
       text-align: center;
     }
   }
-  @media (max-width:500px) {
+  @media (max-width:575px) {
     .higa p {
       text-align: left;
-      margin-left: 60px;
+      margin-left: 30px;
     }
   }
 /*PC表示*/
-  @media (min-width:500px){
+  @media (min-width:575px){
     .irabu{
       display:flex;
     }
@@ -127,15 +127,15 @@ body {
     }
   }
 /*スマホ表示*/
-  @media (max-width:500px) {
+  @media (max-width:575px) {
     .irabu {
       text-align: center;
     }
   }
-  @media (max-width:500px) {
+  @media (max-width:575px) {
     .irabu p {
       text-align: left;
-      margin-left: 60px;
+      margin-left: 30px;
     }
   }
 
