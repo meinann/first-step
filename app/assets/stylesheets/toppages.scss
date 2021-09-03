@@ -91,7 +91,10 @@ body {
 @media (max-width:575px) {
   .yonezu p { 
     text-align: left;
-    margin-left: 30px;
+    text-indent: 1em;
+    padding-left: 2em;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 /*PC表示*/
@@ -113,7 +116,10 @@ body {
   @media (max-width:575px) {
     .higa p {
       text-align: left;
-      margin-left: 30px;
+      text-indent: 1em;
+    padding-left: 2em;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   }
 /*PC表示*/
@@ -135,7 +141,10 @@ body {
   @media (max-width:575px) {
     .irabu p {
       text-align: left;
-      margin-left: 30px;
+      text-indent: 1em;
+    padding-left: 2em;
+      margin-left: 10px;
+      margin-right: 10px;
     }
   }
 
